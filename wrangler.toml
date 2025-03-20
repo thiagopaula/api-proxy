@@ -1,4 +1,4 @@
-name = "proxy-bybit"
+name = "api-proxy"
 
 main = "src/index.js"  # Defina o caminho do arquivo principal
 
