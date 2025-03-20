@@ -1,5 +1,12 @@
 name = "proxy-bybit"
 
-main = "src/index.js"  # Defina o caminho do arquivo principal
+# Certifique-se de que este caminho está correto
+main = "src/index.js"  
 
-compatibility_date = "2024-03-19"  # Atualize para a data atual
+compatibility_date = "2024-03-19"
+
+# Habilita módulos ES (caso esteja usando `import`)
+compatibility_flags = ["run_in_es_modules"]
+
+# Desativa cache do Cloudflare (útil para proxy)
+cache_controls = { bypass_cache = true }
