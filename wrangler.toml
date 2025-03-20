@@ -1,0 +1,9 @@
+name = "proxy-bybit"
+type = "javascript"
+
+[build]
+command = "echo 'Nada para compilar'"
+upload.format = "modules"
+
+[vars]
+ENVIRONMENT = "production"
