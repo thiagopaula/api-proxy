@@ -1,9 +1,5 @@
 name = "proxy-bybit"
-type = "javascript"
 
-[build]
-command = "echo 'Nada para compilar'"
-upload.format = "modules"
+main = "src/index.js"  # Defina o caminho do arquivo principal
 
-[vars]
-ENVIRONMENT = "production"
+compatibility_date = "2024-03-19"  # Atualize para a data atual
